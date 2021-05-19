@@ -1,0 +1,648 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> Reading design: DataPath.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DataPath.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DataPath"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : DataPath
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/Motor_controller.vhd" in Library work.
+Architecture behavioral of Entity motor_controller is up to date.
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/FSM.vhd" in Library work.
+Architecture fsmarch of Entity fsm is up to date.
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/IR.vhd" in Library work.
+Architecture ir_arch of Entity ir is up to date.
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/MUX2_1.vhd" in Library work.
+Architecture behavioral of Entity mux2_1 is up to date.
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/OR8BITS.vhd" in Library work.
+Architecture behavioral of Entity or8bits is up to date.
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/ORMUX.vhd" in Library work.
+Architecture behavioral of Entity ormux is up to date.
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/PC.vhd" in Library work.
+Entity <pc> compiled.
+Entity <pc> (Architecture <pc_arch>) compiled.
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/PCINC.vhd" in Library work.
+Architecture behavioral of Entity pcinc is up to date.
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/RAMMUX.vhd" in Library work.
+Architecture behavioral of Entity rammux is up to date.
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/rom.vhd" in Library work.
+Architecture arch of Entity rom is up to date.
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/rom1.vhd" in Library work.
+Architecture arch of Entity rom1 is up to date.
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/rom2.vhd" in Library work.
+Architecture arch of Entity rom2 is up to date.
+Compiling vhdl file "D:/ISE Projects/cerveau_Robot/cerveau_robot.vhd" in Library work.
+Architecture top of Entity cerveau_robot is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DataPath> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <IR> in library <work> (architecture <ir_arch>).
+
+Analyzing hierarchy for entity <PC> in library <work> (architecture <pc_arch>).
+
+Analyzing hierarchy for entity <rom> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <rom1> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <rom2> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <RAMMUX> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PCINC> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX2_1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Decod2_4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <cmp8bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DEC8bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ORMUX> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <OR8BITS> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DataPath> in library <work> (Architecture <struct>).
+Entity <DataPath> analyzed. Unit <DataPath> generated.
+
+Analyzing Entity <IR> in library <work> (Architecture <ir_arch>).
+Entity <IR> analyzed. Unit <IR> generated.
+
+Analyzing Entity <PC> in library <work> (Architecture <pc_arch>).
+Entity <PC> analyzed. Unit <PC> generated.
+
+Analyzing Entity <rom> in library <work> (Architecture <arch>).
+Entity <rom> analyzed. Unit <rom> generated.
+
+Analyzing Entity <rom1> in library <work> (Architecture <arch>).
+Entity <rom1> analyzed. Unit <rom1> generated.
+
+Analyzing Entity <rom2> in library <work> (Architecture <arch>).
+Entity <rom2> analyzed. Unit <rom2> generated.
+
+Analyzing Entity <RAMMUX> in library <work> (Architecture <behavioral>).
+Entity <RAMMUX> analyzed. Unit <RAMMUX> generated.
+
+Analyzing Entity <PCINC> in library <work> (Architecture <behavioral>).
+Entity <PCINC> analyzed. Unit <PCINC> generated.
+
+Analyzing Entity <MUX2_1> in library <work> (Architecture <behavioral>).
+Entity <MUX2_1> analyzed. Unit <MUX2_1> generated.
+
+Analyzing Entity <Decod2_4> in library <work> (Architecture <behavioral>).
+Entity <Decod2_4> analyzed. Unit <Decod2_4> generated.
+
+Analyzing Entity <cmp8bit> in library <work> (Architecture <behavioral>).
+Entity <cmp8bit> analyzed. Unit <cmp8bit> generated.
+
+Analyzing Entity <DEC8bits> in library <work> (Architecture <behavioral>).
+Entity <DEC8bits> analyzed. Unit <DEC8bits> generated.
+
+Analyzing Entity <ORMUX> in library <work> (Architecture <behavioral>).
+Entity <ORMUX> analyzed. Unit <ORMUX> generated.
+
+Analyzing Entity <OR8BITS> in library <work> (Architecture <behavioral>).
+Entity <OR8BITS> analyzed. Unit <OR8BITS> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <IR>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/IR.vhd".
+    Found 8-bit register for signal <ir_07>.
+    Found 2-bit register for signal <ir_98>.
+    Found 6-bit register for signal <ir_1015>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <IR> synthesized.
+
+
+Synthesizing Unit <PC>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/PC.vhd".
+    Found 8-bit register for signal <output>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <PC> synthesized.
+
+
+Synthesizing Unit <rom>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/rom.vhd".
+    Found 256x16-bit ROM for signal <data_out$rom0000> created at line 29.
+    Found 16-bit register for signal <data_out>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <rom> synthesized.
+
+
+Synthesizing Unit <rom1>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/rom1.vhd".
+    Found 256x16-bit ROM for signal <data_out$rom0000> created at line 29.
+    Found 16-bit register for signal <data_out>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <rom1> synthesized.
+
+
+Synthesizing Unit <rom2>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/rom2.vhd".
+    Found 256x16-bit ROM for signal <data_out$rom0000> created at line 29.
+    Found 16-bit register for signal <data_out>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <rom2> synthesized.
+
+
+Synthesizing Unit <RAMMUX>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/RAMMUX.vhd".
+Unit <RAMMUX> synthesized.
+
+
+Synthesizing Unit <PCINC>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/PCINC.vhd".
+    Found 8-bit adder for signal <output>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <PCINC> synthesized.
+
+
+Synthesizing Unit <MUX2_1>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/MUX2_1.vhd".
+Unit <MUX2_1> synthesized.
+
+
+Synthesizing Unit <Decod2_4>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/Decod2_4.vhd".
+    Found 4x1-bit ROM for signal <out3>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <Decod2_4> synthesized.
+
+
+Synthesizing Unit <cmp8bit>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/cmp8bit.vhd".
+    Found 8-bit register for signal <output>.
+    Found 8-bit adder for signal <output$add0000> created at line 47.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <cmp8bit> synthesized.
+
+
+Synthesizing Unit <DEC8bits>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/DEC8bits.vhd".
+    Found 8-bit subtractor for signal <output>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <DEC8bits> synthesized.
+
+
+Synthesizing Unit <ORMUX>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/ORMUX.vhd".
+    Found 8-bit 4-to-1 multiplexer for signal <output>.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <ORMUX> synthesized.
+
+
+Synthesizing Unit <OR8BITS>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/OR8BITS.vhd".
+Unit <OR8BITS> synthesized.
+
+
+Synthesizing Unit <DataPath>.
+    Related source file is "D:/ISE Projects/cerveau_Robot/DataPath.vhd".
+Unit <DataPath> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 256x16-bit ROM                                        : 3
+ 4x1-bit ROM                                           : 1
+# Adders/Subtractors                                   : 9
+ 8-bit adder                                           : 5
+ 8-bit subtractor                                      : 4
+# Registers                                            : 11
+ 16-bit register                                       : 3
+ 2-bit register                                        : 1
+ 6-bit register                                        : 1
+ 8-bit register                                        : 6
+# Multiplexers                                         : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <rom>.
+INFO:Xst:3044 - The ROM <Mrom_data_out_rom0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <data_out>.
+INFO:Xst:3225 - The RAM <Mrom_data_out_rom0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 16-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <address>       |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <data_out>      |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <rom> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom1>.
+INFO:Xst:3044 - The ROM <Mrom_data_out_rom0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <data_out>.
+INFO:Xst:3225 - The RAM <Mrom_data_out_rom0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 16-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <address>       |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <data_out>      |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <rom1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom2>.
+INFO:Xst:3044 - The ROM <Mrom_data_out_rom0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <data_out>.
+INFO:Xst:3225 - The RAM <Mrom_data_out_rom0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 16-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <address>       |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <data_out>      |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <rom2> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 256x16-bit single-port block RAM                      : 3
+# ROMs                                                 : 1
+ 4x1-bit ROM                                           : 1
+# Adders/Subtractors                                   : 9
+ 8-bit adder                                           : 5
+ 8-bit subtractor                                      : 4
+# Registers                                            : 56
+ Flip-Flops                                            : 56
+# Multiplexers                                         : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DataPath> ...
+
+Optimizing unit <IR> ...
+
+Optimizing unit <PC> ...
+
+Optimizing unit <cmp8bit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DataPath, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 56
+ Flip-Flops                                            : 56
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DataPath.ngr
+Top Level Output File Name         : DataPath
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 16
+
+Cell Usage :
+# BELS                             : 217
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 14
+#      LUT3                        : 54
+#      LUT3_D                      : 5
+#      LUT3_L                      : 4
+#      LUT4                        : 86
+#      LUT4_D                      : 8
+#      LUT4_L                      : 8
+#      MUXF5                       : 35
+#      VCC                         : 1
+# FlipFlops/Latches                : 56
+#      FDCE                        : 56
+# RAMS                             : 3
+#      RAMB16BWE                   : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 8
+#      OBUF                        : 7
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                       94  out of   5888     1%  
+ Number of Slice Flip Flops:             56  out of  11776     0%  
+ Number of 4 input LUTs:                180  out of  11776     1%  
+ Number of IOs:                          16
+ Number of bonded IOBs:                  16  out of    372     4%  
+ Number of BRAMs:                         3  out of     20    15%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 59    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------+------------------------+-------+
+Control Signal                         | Buffer(FF name)        | Load  |
+---------------------------------------+------------------------+-------+
+cmp0/reset_inv(cmp3/reset_inv1_INV_0:O)| NONE(cmp0/output_0)    | 32    |
+reset                                  | IBUF                   | 24    |
+---------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.589ns (Maximum Frequency: 151.768MHz)
+   Minimum input arrival time before clock: 6.417ns
+   Maximum output required time after clock: 10.122ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.589ns (frequency: 151.768MHz)
+  Total number of paths / destination ports: 882 / 112
+-------------------------------------------------------------------------
+Delay:               6.589ns (Levels of Logic = 5)
+  Source:            cmp0/output_1 (FF)
+  Destination:       cmp0/output_7 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cmp0/output_1 to cmp0/output_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             6   0.591   0.749  cmp0/output_1 (cmp0/output_1)
+     LUT3:I1->O            4   0.643   0.590  x22<3>11 (x22<3>_bdd0)
+     LUT4:I3->O            2   0.648   0.450  x22<3>2 (x22<3>)
+     LUT4:I3->O            4   0.648   0.619  cmp0/Madd_output_add0000_xor<4>111 (cmp0/N4)
+     LUT3_L:I2->LO         1   0.648   0.103  cmp0/Madd_output_add0000_xor<6>111 (cmp0/N11)
+     LUT4:I3->O            1   0.648   0.000  cmp0/Madd_output_add0000_xor<7>11 (cmp0/output_add0000<7>)
+     FDCE:D                    0.252          cmp0/output_7
+    ----------------------------------------
+    Total                      6.589ns (4.078ns logic, 2.511ns route)
+                                       (61.9% logic, 38.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 297 / 112
+-------------------------------------------------------------------------
+Offset:              6.417ns (Levels of Logic = 5)
+  Source:            set_Dec (PAD)
+  Destination:       cmp0/output_7 (FF)
+  Destination Clock: clk rising
+
+  Data Path: set_Dec to cmp0/output_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            53   0.849   1.412  set_Dec_IBUF (set_Dec_IBUF)
+     LUT3_D:I0->O          2   0.648   0.590  decmux3/output<0>1 (x19<0>)
+     LUT4:I0->O            4   0.648   0.619  cmp3/Madd_output_add0000_xor<4>111 (cmp3/N4)
+     LUT3_L:I2->LO         1   0.648   0.103  cmp3/Madd_output_add0000_xor<6>111 (cmp3/N11)
+     LUT4:I3->O            1   0.648   0.000  cmp3/Madd_output_add0000_xor<7>11 (cmp3/output_add0000<7>)
+     FDCE:D                    0.252          cmp3/output_7
+    ----------------------------------------
+    Total                      6.417ns (3.693ns logic, 2.724ns route)
+                                       (57.6% logic, 42.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 62 / 7
+-------------------------------------------------------------------------
+Offset:              10.122ns (Levels of Logic = 5)
+  Source:            ri/ir_98_0 (FF)
+  Destination:       cmp_neqz (PAD)
+  Source Clock:      clk rising
+
+  Data Path: ri/ir_98_0 to cmp_neqz
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            20   0.591   1.245  ri/ir_98_0 (ri/ir_98_0)
+     LUT3:I0->O            1   0.648   0.000  mux4/Mmux_output_35 (mux4/Mmux_output_35)
+     MUXF5:I1->O           1   0.276   0.563  mux4/Mmux_output_2_f5_4 (x17<5>)
+     LUT4:I0->O            1   0.648   0.563  zero/cmp_neqz4 (zero/cmp_neqz4)
+     LUT2:I0->O            1   0.648   0.420  zero/cmp_neqz10 (cmp_neqz_OBUF)
+     OBUF:I->O                 4.520          cmp_neqz_OBUF (cmp_neqz)
+    ----------------------------------------
+    Total                     10.122ns (7.331ns logic, 2.791ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 21.00 secs
+Total CPU time to Xst completion: 20.81 secs
+ 
+--> 
+
+Total memory usage is 4528344 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

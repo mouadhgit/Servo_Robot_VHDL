@@ -1,0 +1,5 @@
+set -tmpdir "D:/ISE Projects/cerveau_Robot/xst/projnav.tmp"
+set -xsthdpdir "D:/ISE Projects/cerveau_Robot/xst"
+elaborate
+-ifn FSM.prj
+-ifmt mixed

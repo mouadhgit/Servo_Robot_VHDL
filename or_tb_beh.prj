@@ -1,0 +1,2 @@
+vhdl work "OR8BITS.vhd"
+vhdl work "or_tb.vhd"

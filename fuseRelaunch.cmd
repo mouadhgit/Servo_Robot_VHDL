@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/ISE Projects/cerveau_Robot/DataPath_tb_isim_beh.exe" -prj "D:/ISE Projects/cerveau_Robot/DataPath_tb_beh.prj" "work.DataPath_tb" 

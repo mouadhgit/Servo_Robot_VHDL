@@ -1,0 +1,47 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/ISE Projects/cerveau_Robot/DataPath_tb_isim_beh.exe -prj D:/ISE Projects/cerveau_Robot/DataPath_tb_beh.prj work.DataPath_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/rom2.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/rom1.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/rom.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/RAMMUX.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/PCINC.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/PC.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/ORMUX.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/OR8BITS.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/MUX2_1.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/IR.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/Decod2_4.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/DEC8bits.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/cmp8bit.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/DataPath.vhd" into library work
+Parsing VHDL file "D:/ISE Projects/cerveau_Robot/DataPath_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture ir_arch of entity IR [ir_default]
+Compiling architecture pc_arch of entity PC [pc_default]
+Compiling architecture arch of entity rom [rom_default]
+Compiling architecture arch of entity rom1 [rom1_default]
+Compiling architecture arch of entity rom2 [rom2_default]
+Compiling architecture behavioral of entity RAMMUX [rammux_default]
+Compiling architecture behavioral of entity PCINC [pcinc_default]
+Compiling architecture behavioral of entity MUX2_1 [mux2_1_default]
+Compiling architecture behavioral of entity Decod2_4 [decod2_4_default]
+Compiling architecture behavioral of entity cmp8bit [cmp8bit_default]
+Compiling architecture behavioral of entity DEC8bits [dec8bits_default]
+Compiling architecture behavioral of entity ORMUX [ormux_default]
+Compiling architecture behavioral of entity OR8BITS [or8bits_default]
+Compiling architecture struct of entity DataPath [datapath_default]
+Compiling architecture behavior of entity datapath_tb
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 33 VHDL Units
+Built simulation executable D:/ISE Projects/cerveau_Robot/DataPath_tb_isim_beh.exe
+Fuse Memory Usage: 37372 KB
+Fuse CPU Usage: 1764 ms

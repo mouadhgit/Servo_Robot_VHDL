@@ -1,0 +1,7 @@
+[Inputs]
+clk
+reset
+[Outputs]
+=M_1[7:0]=
+=M_2[7:0]=
+[BiDir]

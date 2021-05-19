@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="cerveau_Robot.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DataPath.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DataPath.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="DataPath.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="DataPath.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DataPath.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="DataPath.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DataPath.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DataPath.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DataPath_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DataPath_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DataPath_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DataPath_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="DataPath_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DataPath_tb_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DataPath_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DataPath_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FSM.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="FSM.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="FSM.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="IR_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Motor_controller.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Motor_controller.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Motor_controller.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Motor_controller.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Motor_controller.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Motor_controller.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Motor_controller.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Motor_controller.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Motor_controller_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Motor_controller_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Motor_controller_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PCINC_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PCINC_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cerveau_robot.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cerveau_robot.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cerveau_robot.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cerveau_robot.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cerveau_robot.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="cerveau_robot.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cerveau_robot.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="cerveau_robot.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cerveau_robot.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cerveau_robot.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cerveau_robot_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cerveau_robot_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cerveau_robot_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cerveau_robot_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="or_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="or_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="or_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="rom_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1619093535" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1619093535">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1619098901" xil_pn:in_ck="-2355034648789443294" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1619098901">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEC8bits.vhd"/>
+      <outfile xil_pn:name="DataPath.vhd"/>
+      <outfile xil_pn:name="DataPath_tb.vhd"/>
+      <outfile xil_pn:name="Decod2_4.vhd"/>
+      <outfile xil_pn:name="FSM.vhd"/>
+      <outfile xil_pn:name="IR.vhd"/>
+      <outfile xil_pn:name="MUX2_1.vhd"/>
+      <outfile xil_pn:name="Motor_controller.vhd"/>
+      <outfile xil_pn:name="OR8BITS.vhd"/>
+      <outfile xil_pn:name="ORMUX.vhd"/>
+      <outfile xil_pn:name="PC.vhd"/>
+      <outfile xil_pn:name="PCINC.vhd"/>
+      <outfile xil_pn:name="RAMMUX.vhd"/>
+      <outfile xil_pn:name="cmp8bit.vhd"/>
+      <outfile xil_pn:name="rom.vhd"/>
+      <outfile xil_pn:name="rom1.vhd"/>
+      <outfile xil_pn:name="rom2.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1619095934" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8501286650447143634" xil_pn:start_ts="1619095934">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1619095934" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3511413103577614554" xil_pn:start_ts="1619095934">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1619098901" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4640870866053876374" xil_pn:start_ts="1619098901">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1619098901" xil_pn:in_ck="-2355034648789443294" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1619098901">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEC8bits.vhd"/>
+      <outfile xil_pn:name="DataPath.vhd"/>
+      <outfile xil_pn:name="DataPath_tb.vhd"/>
+      <outfile xil_pn:name="Decod2_4.vhd"/>
+      <outfile xil_pn:name="FSM.vhd"/>
+      <outfile xil_pn:name="IR.vhd"/>
+      <outfile xil_pn:name="MUX2_1.vhd"/>
+      <outfile xil_pn:name="Motor_controller.vhd"/>
+      <outfile xil_pn:name="OR8BITS.vhd"/>
+      <outfile xil_pn:name="ORMUX.vhd"/>
+      <outfile xil_pn:name="PC.vhd"/>
+      <outfile xil_pn:name="PCINC.vhd"/>
+      <outfile xil_pn:name="RAMMUX.vhd"/>
+      <outfile xil_pn:name="cmp8bit.vhd"/>
+      <outfile xil_pn:name="rom.vhd"/>
+      <outfile xil_pn:name="rom1.vhd"/>
+      <outfile xil_pn:name="rom2.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1619098912" xil_pn:in_ck="-2355034648789443294" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8231560195433497342" xil_pn:start_ts="1619098901">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="DataPath_tb_beh.prj"/>
+      <outfile xil_pn:name="DataPath_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1619098913" xil_pn:in_ck="7669713642507515048" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3011161356317884945" xil_pn:start_ts="1619098912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="DataPath_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1619015938" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1619015938">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1619098696" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5883797510274497135" xil_pn:start_ts="1619098696">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1619098696" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4640870866053876374" xil_pn:start_ts="1619098696">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1619078545" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1619078545">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1619098696" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7473199866077764201" xil_pn:start_ts="1619098696">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1619078545" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="4579864356909105523" xil_pn:start_ts="1619078545">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1619098696" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="3395175339727898272" xil_pn:start_ts="1619098696">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1619098720" xil_pn:in_ck="4361999212421495030" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-5059575956953096995" xil_pn:start_ts="1619098696">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="DataPath.ngr"/>
+      <outfile xil_pn:name="Motor_controller.ngr"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="cerveau_robot.lso"/>
+      <outfile xil_pn:name="cerveau_robot.ngc"/>
+      <outfile xil_pn:name="cerveau_robot.ngr"/>
+      <outfile xil_pn:name="cerveau_robot.prj"/>
+      <outfile xil_pn:name="cerveau_robot.stx"/>
+      <outfile xil_pn:name="cerveau_robot.syr"/>
+      <outfile xil_pn:name="cerveau_robot.xst"/>
+      <outfile xil_pn:name="cerveau_robot_vhdl.prj"/>
+      <outfile xil_pn:name="cerveau_robot_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

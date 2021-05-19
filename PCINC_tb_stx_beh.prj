@@ -1,0 +1,2 @@
+vhdl isim_temp "PCINC.vhd"
+vhdl isim_temp "PCINC_tb.vhd"

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/ISE Projects/cerveau_Robot/Motor_controller.xst" -ofn "D:/ISE Projects/cerveau_Robot/Motor_controller.syr" 
